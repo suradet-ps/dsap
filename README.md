@@ -62,7 +62,7 @@ src/
 ### Prerequisites
 
 - Node.js (LTS version recommended)
-- pnpm (Package Manager)
+- Bun (Package Manager)
 
 ### Installation
 
@@ -71,14 +71,14 @@ src/
 git clone https://github.com/suradet-ps/dsap.git
 
 # 2. Install dependencies
-pnpm install
+bun install
 ```
 
 ### Development
 
 ```bash
 # Start the development server
-pnpm dev
+bun dev
 ```
 
 The application will be available at `http://localhost:5173/`.
@@ -87,7 +87,7 @@ The application will be available at `http://localhost:5173/`.
 
 ```bash
 # Fix linting issues automatically
-pnpm lint:fix
+bun lint:fix
 ```
 
 ---
